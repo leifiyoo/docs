@@ -1,0 +1,25 @@
+---
+title: "Versions"
+description: "Choose the correct LockiPrefixes artifact for your server"
+---
+
+Use the plugin build that matches your Minecraft version.
+
+| Artifact | Minecraft versions | Typical Java runtime |
+|---|---|---|
+| lockiprefixes-legacy-x.x.x.jar | 1.8 - 1.12 | Java 8 |
+| lockiprefixes-mid-x.x.x.jar | 1.13 - 1.18 | Java 8 to 16 |
+| lockiprefixes-modern-x.x.x.jar | 1.19 - 1.19.4 | Java 16 |
+| lockiprefixes-latest-x.x.x.jar | 1.20 - 1.21 | Java 21 |
+
+<Warning>
+Do not place multiple LockiPrefixes variants in your plugins folder at the same time.
+</Warning>
+
+## Common mistakes
+
+- Using the root artifact instead of a module artifact
+- Using latest on an older Minecraft server
+- Running a module on an unsupported Java version
+
+If startup fails, verify both Minecraft version and Java version first.

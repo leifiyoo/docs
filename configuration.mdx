@@ -1,0 +1,31 @@
+---
+title: "Configuration"
+description: "How LockiPrefixes stores and applies rank formats"
+---
+
+LockiPrefixes writes and updates configuration automatically. Most users configure ranks in-game via the GUI.
+
+## Config location
+
+plugins/LockiPrefixes/config.yml
+
+## Example structure
+
+```yaml
+groups:
+  owner:
+    chat-format: "&4&lOwner &8| &f{name} &7{message}"
+    tablist-format: "&4&lOwner &8| &f{name}"
+    priority: 100
+```
+
+## Tokens in formats
+
+- {name}: Player name
+- {message}: Chat message (chat format only)
+
+## Notes
+
+- Higher priority wins when multiple groups could apply.
+- GUI changes are written directly to config.yml.
+- After manual edits, run /lpx reload.

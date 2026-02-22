@@ -1,0 +1,33 @@
+---
+title: "Placeholders"
+description: "PlaceholderAPI values and TAB integration"
+---
+
+LockiPrefixes exposes placeholders for chat and tablist integrations.
+
+## Available placeholders
+
+| Placeholder | Output |
+|---|---|
+| %lockiprefixes_prefix% | Rank prefix only |
+| %lockiprefixes_tablist% | Prefix + separator + player name |
+| %lockiprefixes_name% | Prefix directly followed by player name |
+
+## TAB setup example
+
+Edit TAB groups configuration and set:
+
+```yaml
+customtabname: "%lockiprefixes_tablist%"
+tagprefix: "%luckperms-prefix%"
+```
+
+Then run:
+
+```bash
+/tab reload
+```
+
+<Info>
+When TAB is detected, LockiPrefixes disables its internal tablist module automatically.
+</Info>
