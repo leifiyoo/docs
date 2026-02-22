@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
+  "theme": "mint",
   "name": "LockiPrefixes Docs",
   "colors": {
     "primary": "#5865F2",
@@ -57,7 +57,7 @@
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/locki/lockiprefixes"
+        "href": "https://github.com/leifiyoo/lockiprefixes"
       }
     ],
     "primary": {
@@ -80,7 +80,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/locki/lockiprefixes"
+      "github": "https://github.com/leifiyoo/lockiprefixes"
     }
   }
 }
