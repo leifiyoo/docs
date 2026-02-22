@@ -9,6 +9,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "icon": "github",
+          "href": "https://github.com/leifiyoo/lockiprefixes"
+        },
+        {
+          "anchor": "LuckPerms",
+          "icon": "user-shield",
+          "href": "https://luckperms.net"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -37,21 +51,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "GitHub",
-          "href": "https://github.com/locki/lockiprefixes",
-          "icon": "github"
-        },
-        {
-          "anchor": "LuckPerms",
-          "href": "https://luckperms.net",
-          "icon": "user-shield"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
